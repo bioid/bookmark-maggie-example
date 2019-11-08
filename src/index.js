@@ -13,8 +13,9 @@ import displays from './displays.js';
 
 
 const main = function(){
-  displays.renderAddView();
-  displays.listBookmarks();
+  displays.render();
+  console.log('hi')
+  //displays.listBookmarks();
 };
 
 $(main);
